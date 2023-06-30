@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.33808.371
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainDrivenDesign", "DomainDrivenDesign\DomainDrivenDesign.csproj", "{6FE13C57-2DB4-4AF3-B755-BF91E306D5C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainDrivenDesign.Tests", "DomainDrivenDesign.Tests\DomainDrivenDesign.Tests.csproj", "{51B92263-DC72-4EA6-BD54-945F4721D8FE}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6FE13C57-2DB4-4AF3-B755-BF91E306D5C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FE13C57-2DB4-4AF3-B755-BF91E306D5C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FE13C57-2DB4-4AF3-B755-BF91E306D5C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FE13C57-2DB4-4AF3-B755-BF91E306D5C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51B92263-DC72-4EA6-BD54-945F4721D8FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51B92263-DC72-4EA6-BD54-945F4721D8FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51B92263-DC72-4EA6-BD54-945F4721D8FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51B92263-DC72-4EA6-BD54-945F4721D8FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
